@@ -13,7 +13,7 @@ public class MathUtilsTest {
 
     @Test
     public void testMinus() throws Exception {
-        assertEquals(3, MathUtils.minus(4, 3)); // for test travis ci
+        assertEquals(1, MathUtils.minus(4, 3));
     }
 
     @Test
