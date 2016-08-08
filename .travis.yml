@@ -18,3 +18,4 @@ android:
 notifications:
   email: false
 
+sudo: false
