@@ -1,0 +1,22 @@
+language: android
+
+sudo: false
+
+jdk:
+ - oraclejdk8
+
+android:
+  components:
+   - tools
+   - platform-tools
+   - build-tools-24.0.1
+   - android-24
+
+  # Specify at least one system image,
+  # if you need to run emulator(s) during your tests
+  # - sys-img-armeabi-v7a-android-22
+  # - sys-img-x86-android-17
+
+notifications:
+  email: false
+
