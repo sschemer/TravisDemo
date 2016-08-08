@@ -10,6 +10,10 @@ android:
    - build-tools-24.0.1
    - android-24
 
+licenses:
+  - 'android-sdk-preview-license-52d11cd2'
+  - 'android-sdk-license-.+'
+
   # Specify at least one system image,
   # if you need to run emulator(s) during your tests
   # - sys-img-armeabi-v7a-android-22
