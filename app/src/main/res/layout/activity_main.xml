@@ -11,7 +11,23 @@
     tools:context="me.bytecho.travisdemo.MainActivity">
 
     <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tv"
+        android:padding="2dp"
+        android:textSize="18sp"
+        tools:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/bt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@color/colorAccent"
+        android:text="bt"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
 </RelativeLayout>
